@@ -1,140 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariana Silva - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mariana Silva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Navigation -->
-    <header class="header">
-        <nav class="nav-container">
-            <div class="nav-content">
-                <a href="#" class="logo">Mariana Silva</a>
-                <div class="nav-links">
-                    <a href="#about">About</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-        </nav>
+
+  <nav id="nav">
+    <a href="#top" class="brand"><span class="dot">.</span>mariana</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#experience">experience</a>
+    </div>
+  </nav>
+
+  <div class="wrap" id="top">
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="hero-photo">
+          <img class="hero-avatar" src="images/mariana.webp" alt="Mariana Silva" width="290" height="290" />
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-name">Mariana Silva</h1>
+          <p class="hero-bio">I'm a Product Manager interested in how emerging technology becomes genuinely useful in the real world. I work at the edge of frontier AI, turning research into products customers love.</p>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/nsilvamariana/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            </a>
+            <a href="https://x.com/marianafnsilva" target="_blank" rel="noopener" aria-label="X" title="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
+  </div>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Mariana Silva</h1>
-                    <p class="hero-subtitle">Product Designer & Creative Strategist</p>
-                    <p class="hero-description">Crafting meaningful digital experiences through thoughtful design and strategic thinking.</p>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider">
-            <div class="divider-line"></div>
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-grid">
+        <div class="sec-head">
+          <span class="marker">.about</span>
         </div>
-
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div class="container">
-                <h2 class="section-title">About</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>I'm a designer who believes in the power of simplicity and clarity. With over 5 years of experience in product design, I've helped companies transform complex problems into elegant, user-centered solutions.</p>
-                        <p>My approach combines strategic thinking with meticulous attention to detail, ensuring that every design decision serves both user needs and business goals. I thrive in collaborative environments where I can work closely with engineers, product managers, and stakeholders to bring ideas to life.</p>
-                        <p>When I'm not designing, you'll find me exploring new coffee shops, reading about design systems, or experimenting with generative art.</p>
-                    </div>
-                    <div class="about-image">
-                        <!-- Placeholder for profile image -->
-                        <div class="image-placeholder">
-                            <span>Profile Image</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider">
-            <div class="divider-line"></div>
-        </div>
-
-        <!-- Experience Section -->
-        <section class="experience" id="experience">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
-                <div class="experience-list">
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div>
-                                <h3 class="experience-title">Senior Product Designer</h3>
-                                <p class="experience-company">TechCorp Inc.</p>
-                            </div>
-                            <span class="experience-date">2022 - Present</span>
-                        </div>
-                        <p class="experience-description">Leading design initiatives for a suite of B2B SaaS products used by over 10,000 companies. Established and maintained a comprehensive design system that increased design-to-development efficiency by 40%.</p>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div>
-                                <h3 class="experience-title">Product Designer</h3>
-                                <p class="experience-company">StartupXYZ</p>
-                            </div>
-                            <span class="experience-date">2020 - 2022</span>
-                        </div>
-                        <p class="experience-description">Designed and shipped core features for a mobile-first platform, working closely with cross-functional teams. Conducted user research and usability testing to inform design decisions and improve conversion rates by 25%.</p>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div>
-                                <h3 class="experience-title">Junior Designer</h3>
-                                <p class="experience-company">Design Studio Co.</p>
-                            </div>
-                            <span class="experience-date">2018 - 2020</span>
-                        </div>
-                        <p class="experience-description">Contributed to various client projects ranging from brand identity to web design. Developed skills in visual design, prototyping, and client communication while working on projects for startups and established brands.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider">
-            <div class="divider-line"></div>
-        </div>
-
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <h2 class="section-title">Let's Connect</h2>
-                <div class="contact-content">
-                    <p class="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-                    <div class="contact-links">
-                        <a href="mailto:hello@marianasilva.com" class="contact-link">hello@marianasilva.com</a>
-                        <div class="social-links">
-                            <a href="#" class="social-link">LinkedIn</a>
-                            <a href="#" class="social-link">Twitter</a>
-                            <a href="#" class="social-link">Dribbble</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Mariana Silva. All rights reserved.</p>
+        <div>
+          <div class="prose">
+              <p>I'm a product manager based in London, born and raised in the north of Portugal. I studied mechanical engineering, started out as an FEA simulation engineer, found my way into data and machine learning, and later moved into product. That path still shapes how I build — grounded in first principles, energised by turning complex technology into products people love to use.</p>
+              <p>I spent nearly five years at QuantumBlack, AI by McKinsey as a forward-deployed engineer, building machine learning solutions to high-impact problems for Fortune 500 customers across life sciences and finance, with projects spanning the UK, UAE, Brazil, and the Netherlands. I was a founding engineer in the Life Sciences AI product team, became the first tech lead for Retail AI, and ultimately moved into a product track focused on AI developer tools.</p>
+              <p>In 2023 I joined a small team in Shoreditch with an ambitious goal: building a Physics AI platform using geometric deep learning to accelerate simulation. As the first R&amp;D hire at PhysicsX, I lived the full arc of company building — writing the first ML methods and early wireframes, then growing into a Head of Product role. Over two and a half years I led a platform now deployed with enterprise customers across automotive, aerospace, and materials, and contributed to the company's $32M Series A and $135M Series B.</p>
+              <p>I left to build 0→1 once again — this time in the fast-moving world of coding agents — joining Tessl to work on an agent-enablement platform that helps developers generate and optimise context, evaluate agent behaviour, and understand how coding agents perform in practice.</p>
+              <p>Beyond the work, what drives me is curiosity. Living in six countries early in my career taught me to adapt quickly, listen carefully, and value the differences in how people think. I spend much of my free time reading, and recently I've been learning to draw — partly for fun, partly as a reminder that anything exceptional starts with learning to see.</p>
             </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-grid">
+        <div class="sec-head">
+          <span class="marker">.experience</span>
+        </div>
+        <div>
+          <div class="exp-list">
+
+            <div class="exp-row">
+              <span class="exp-date">Aug 2025 — Feb 2026</span>
+              <h3 class="exp-role">Product</h3>
+              <a class="exp-co" href="https://www.tessl.io" target="_blank" rel="noopener">Tessl <span class="ar">↗</span></a>
+              <p class="exp-desc">Building an agent-enablement platform that helps teams generate, evaluate, and optimise context for coding agents.</p>
+            </div>
+
+            <div class="exp-row">
+              <span class="exp-date">Jan 2023 — Jun 2025</span>
+              <h3 class="exp-role">Head of Product</h3>
+              <a class="exp-co" href="https://www.physicsx.ai" target="_blank" rel="noopener">PhysicsX <span class="ar">↗</span></a>
+              <p class="exp-desc">Shaped product strategy and execution for an AI-driven physics inference platform, from the first ML methods to an enterprise product deployed across automotive, aerospace, and materials.</p>
+            </div>
+
+            <div class="exp-row">
+              <span class="exp-date">Jul 2022 — Dec 2022</span>
+              <h3 class="exp-role">Product Manager</h3>
+              <a class="exp-co" href="https://www.mckinsey.com/capabilities/quantumblack/" target="_blank" rel="noopener">QuantumBlack, AI by McKinsey <span class="ar">↗</span></a>
+              <p class="exp-desc">Built AI DevTools supporting QuantumBlack Labs' expanding ecosystem of reusable assets and components.</p>
+            </div>
+
+            <div class="exp-row">
+              <span class="exp-date">Apr 2018 — May 2022</span>
+              <h3 class="exp-role">Lead Data Engineer</h3>
+              <a class="exp-co" href="https://www.mckinsey.com/capabilities/quantumblack/" target="_blank" rel="noopener">QuantumBlack, AI by McKinsey <span class="ar">↗</span></a>
+              <p class="exp-desc">Delivered machine learning solutions and data infrastructure as a forward-deployed engineer for Fortune 500 customers across life sciences and finance.</p>
+            </div>
+
+            <div class="exp-row">
+              <span class="exp-date">Nov 2017 — Mar 2018</span>
+              <h3 class="exp-role">Data Engineer</h3>
+              <a class="exp-co" href="https://www.keboola.com/" target="_blank" rel="noopener">Keboola <span class="ar">↗</span></a>
+              <p class="exp-desc">Built data pipelines and analytics dashboards as a forward-deployed engineer using Keboola's platform.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="foot-copy">Mariana Silva © 2026</span>
+    <div class="foot-right">
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/nsilvamariana/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+        </a>
+        <a href="https://x.com/marianafnsilva" target="_blank" rel="noopener" aria-label="X" title="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
