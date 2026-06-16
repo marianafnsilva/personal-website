@@ -168,7 +168,7 @@ section { padding: clamp(64px, 11vh, 140px) 0; }
   display: flex;
   align-items: center;
   gap: clamp(16px, 2.4vw, 30px);
-  margin-bottom: clamp(40px, 7vh, 78px);
+  margin-bottom: clamp(20px, 7vh, 30px);
 }
 .sec-head .marker { flex: none; }
 .sec-head::after {
@@ -197,7 +197,7 @@ section { padding: clamp(64px, 11vh, 140px) 0; }
   grid-template-rows: auto auto;
   column-gap: clamp(39px, 4.8vw, 77px);
   row-gap: 10px;
-  padding: clamp(26px, 3.6vh, 40px) 0;
+  padding: clamp(15px, 3.6vh, 20px) 0;
   border-top: 1px solid var(--line);
 }
 .exp-row:first-child { border-top: none; }
@@ -211,7 +211,7 @@ section { padding: clamp(64px, 11vh, 140px) 0; }
 .exp-role {
   grid-column: 1; grid-row: 2;
   align-self: start;
-  font-size: clamp(18px, 2vw, 24px);
+  font-size: clamp(16px, 2vw, 20px);
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.05;
@@ -220,7 +220,7 @@ section { padding: clamp(64px, 11vh, 140px) 0; }
   grid-column: 2; grid-row: 2;
   align-self: start; justify-self: start;
   font-family: var(--font);
-  font-size: clamp(18px, 2vw, 24px);
+  font-size: clamp(16px, 2vw, 20px);
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.05;
@@ -242,7 +242,7 @@ section { padding: clamp(64px, 11vh, 140px) 0; }
   max-width: none;
 }
 @media (max-width: 760px) {
-  .exp-row { grid-template-columns: 1fr; grid-template-rows: none; column-gap: 0; row-gap: 8px; padding: clamp(22px, 3vh, 30px) 0; }
+  .exp-row { grid-template-columns: 1fr; grid-template-rows: none; column-gap: 0; row-gap: 8px; padding: clamp(15px, 3vh, 20px) 0; }
   .exp-date, .exp-role, .exp-co, .exp-desc { grid-column: 1; grid-row: auto; }
 }
 
